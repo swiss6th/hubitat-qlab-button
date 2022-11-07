@@ -31,8 +31,8 @@ metadata {
 		}
 		section("Commands") {
 			input "pushedCommandString", "text", title: "<strong>Command string for Push</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
-			input "doubleTappedCommandString", "text", title: "<strong>Command string for Double Tap</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
-			input "heldCommandString", "text", title: "<strong>Command string for Hold</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
+			input "doubleTappedCommandString", "text", title: "<strong>Command string for Double Tap</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/playbackPosition/previous"
+			input "heldCommandString", "text", title: "<strong>Command string for Hold</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/panic"
 		}
 	}
 }
