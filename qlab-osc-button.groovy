@@ -31,9 +31,9 @@ metadata {
 			input "qlabPort", "number", title: "<strong>Port of QLab</strong>:", required: true, multiple: false, displayDuringSetup: true, range: "0..65353", defaultValue: 53535
 		}
 		section("Commands") {
-			input "pushedCommandString", "text", title: "<strong>Command string to send on pushed</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
-			input "doubleTappedCommandString", "text", title: "<strong>Command string to send on doubleTapped</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
-			input "heldCommandString", "text", title: "<strong>Command string to send on held</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
+			input "pushedCommandString", "text", title: "<strong>Command string for Push</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
+			input "doubleTappedCommandString", "text", title: "<strong>Command string for Double Tap</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
+			input "heldCommandString", "text", title: "<strong>Command string for Hold</strong>:", required: true, multiple: false, displayDuringSetup: true, defaultValue: "/go"
 		}
 	}
 }
