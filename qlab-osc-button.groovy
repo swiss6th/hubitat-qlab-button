@@ -2,9 +2,13 @@
 
 QLab OSC Button
 
-This driver sends a text string via UDP to a device on the network. Strings are set in the device preferences and can be sent by triggering a push, doubleTap, or hold command. The original intent was to send plaintext OSC commands to Figure 53's QLab, but it could be used for any network device that is looking for commands via plaintext UDP.
+This driver sends a text string via UDP to a device on the network. Strings are set in the device preferences
+and can be sent by triggering a push, doubleTap, or hold command. The original intent was to send plaintext
+OSC commands to Figure 53's QLab, but it could be used for any network device that is looking for commands
+via plaintext UDP.
 
-Set up a Button Controller or Rule Machine rule to trigger button presses on this driver. Then, any button compatible with Hubitat can send commands.
+Set up a Button Controller or Rule Machine rule to trigger button presses on this driver. Then, any button
+compatible with Hubitat can send commands.
 
 */
 
