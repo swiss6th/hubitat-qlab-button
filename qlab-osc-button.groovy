@@ -13,7 +13,7 @@ compatible with Hubitat can send commands.
 */
 
 metadata {
-	definition(name: "QLab OSC Button", namespace: "swiss6th", author: "Andrew Hall") {
+	definition(name: "QLab OSC Button", namespace: "swiss6th", author: "Andrew Hall", importUrl: "https://github.com/swiss6th/hubitat-qlab-button/raw/main/qlab-osc-button.groovy") {
 		capability "Actuator"
 		capability "PushableButton"
 		capability "DoubleTapableButton"
